@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hikikomo.Log</title>
+    <style>
+      .navbar,footer{
+        background-color:gray;
+      }
+      .InQuery{
+        background-color:beige;
+      }
+    .card-img-top{
+      height:230px;
+    }
+    .card-body{
+      height:150px;
+    }
+    .padding{
+    padding-bottom:2rem;
+    }
+    </style>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+    
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+      <a class="navbar-brand" hraf="#"> <img src="img/Hikikomo-logo.png" width="170" height="50"> </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" hraf="#">HOME</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" hraf="#"> Log</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" hraf="#">Contact</a>
+        </li>
+      </ul>
+      </div>
+      </div> 
+    </nav>
+    </header>
+
+    <!--- Jumbotron -->
+    <div class="container-fluid">
+    <div class="row jumbotron">
+      <div class="col-md-12">
+        <h3 class="lead text-center">渡らない鳥はただの鳥だ！</h3>
+    </div>
+    </div>
+    </div>
+
+   <!--- main -->
+
+   <main>
+    <div class="container-fluid padding">
+    <div class="row padding">
+      <div class="col-md-3">
+      <div class="card">
+      <img class="card-img-top w-110 " src="https://lh3.googleusercontent.com/iNT52uy2Atp0LaOX0XHLaO5QcpUTSqf4rg-OWOW3cvhAyOtVy8SNQXusnMOd6FkWMKYTx1dTrDvKm8xSEwaOGnoXUVNvnHnjQS-b9I6xGLR2L7N01xMMhjTZu5g1hE94cJaLo_nuFA=w100-h100-no">
+      <div class="card-body">
+        <h3 class="card-title">始めに</h3>
+        <p class="card-text">自己紹介など</p>
+      </div>
+      </div>
+      </div>
+
+     <div class="col-md-3">
+      <div class="card">
+      <img class="card-img-top w-110 " src="img/figure_taiiku_suwari_back.png">
+      <div class="card-body">
+        <h3 class="card-title">雑記</h3>
+        <p class="card-text">ダラダラ</p>
+      </div>
+      </div>
+      </div>
+
+   <div class="col-md-3">
+      <div class="card">
+      <img class="card-img-top w-110" src="img/english_kaiwa_bad_woman.png">
+      <div class="card-body">
+        <h3 class="card-title">英語</h3>
+        <p class="card-text">English!</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+      <img class="card-img-top  w-110" src="img/character_program_shutdown.png">
+      <div class="card-body">
+        <h3 class="card-title">プログラミング</h3>
+        <p class="card-text">HTML/CSS/JavaScript/PHP etc...</p>
+      </div>
+      </div>
+      </div>  
+
+     </div>
+     </div>
+     
+     <!--InQuery-->
+     <div class="container-fluid p-4 InQuery">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h3>お問い合わせ</h3>
+          <hr>
+        </div>
+      </div>
+
+      <form>
+          <div class="form-row">
+              <div class=" form-group col-md-6">
+                <label for="Name">お名前</label>
+                <input type="text" class="form-control" id="Name" placeholder="お名前">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="email">メールアドレス</label>
+                <input type="text" class="form-control" id="email" placeholder="メールアドレス">
+              </div>
+              <div class="form-group col-md-12">
+                <label for="Content">お問い合わせ内容</label>
+                <textarea class="form-control" class="form-control" id="Content" row=6></textarea>
+              </div>  
+              <button class="btn btn-primary text-center">送信</button>         
+            </div>
+        </form>    
+      </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid py-4">
+        <div class="text-center">
+            <h5>&copy;2019- Hikikomo.Log </h5>   
+        </div>
+        </div>
+    </footer>
+         
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
